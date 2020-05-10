@@ -7,4 +7,4 @@ final Client client = HttpClientWithInterceptor.build(
   interceptors: [LoggingInterceptor()],
   requestTimeout: Duration(seconds: 2)
 );
-final String baseUrl = "http://192.168.1.17:8080/transactions";
+final String baseUrl = "ENV.URL8080/transactions";
